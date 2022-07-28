@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Method Test</title>
+  </head>
+  <body>
+    <form id="form">
+      <div>
+        <label for="id">Record ID</label>
+        <input type="number" name="id" />
+      </div>
+      <div>
+        <label for="article_name">Article Name</label>
+        <input type="text" name="article_name" />
+      </div>
+      <div>
+        <label for="article_body">Article Body</label>
+        <textarea name="article_body"></textarea>
+      </div>
+      <input name="article_date" hidden />
+
+      <div>
+        <input type="submit" value="post" id="postBtn"></input>
+        <input type="submit" value="get" id="getBtn"></input>
+        <input type="submit" value="put" id="putBtn"></input>
+        <input type="submit" value="delete" id="deleteBtn"></input>
+      </div>
+
+      <output id="response">
+      </output>
+    </form>
+    <script src="./methodtest.js" type="module"></script>
+  </body>
+</html>
