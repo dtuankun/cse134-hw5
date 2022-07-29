@@ -1,1 +1,3 @@
-https://dtuankun-cse134-hw4.netlify.app/
+- https://adorable-sundae-7310e9.netlify.app/methodtest.html
+- https://adorable-sundae-7310e9.netlify.app/webcomponent.html
+- https://adorable-sundae-7310e9.netlify.app/extracredit.html
